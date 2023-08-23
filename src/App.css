@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  width: 600px;
+  margin: auto;
+}
+
+.divA{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: DodgerBlue;
+  font-size: bold;
+}
+
+.divB{
+  display: flex;
+  width: 150px;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin: auto;
+  text-align: left;
+  gap: 7px;
+  text-transform: capitalize;
+}
+
+.inputBox {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid lightslategray;
+}
+
+.submitBtn {
+  position: relative;
+  top: 10px;
+  padding: 5px;
+  background-color: DodgerBlue;
+  border: 1px DodgerBlue;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.bor {
+  gap: 10px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 20px;
+}
+
+.oper {
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid rgb(220, 217, 217);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons{
+  padding: 13px;
+}
+
+.title{
+  letter-spacing: 1.4px;
+  font-size: 20px;
+}
+
+.subTitleA{
+  color: #282c34;
+}
+
+.exitBtn{
+  position: relative;
+  top: 10px;
+  background-color: rgb(13, 13, 13);
+  color: #fff;
+  font-size: large;
+  border-radius: 4px;
+  border: 1px rgb(13, 13, 13);
+}
+
+.lineLabel{
+  height: 0px;
+  border: 1px solid rgb(189, 187, 187);
+}
+
+.innerDivA{
+  float: left;
+}
+
+.readLabel{
+  position: relative;
+  top: 8px;
+  left: 10px;
+  border: 1px solid rgb(13, 13, 13);
+  background-color: rgb(13, 13, 13);
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  width: 50px;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.headA{
+  color: #77787b;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.countLib{
+  position: relative;
+  left: 250px;
+  bottom: 44px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:rgb(244, 122, 244); 
+  text-transform: capitalize;
+}
+
+.outBorder{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
+
+.readDiv{
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.bottomLabelA
+{
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.readA
+{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
